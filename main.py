@@ -22,4 +22,7 @@ def get_weather(api_key, city):
 
 api_key = "a5700603a72d9ceb9481e37a8c154e6b"
 city='Warsaw'
-get_weather(api_key,city)
+while city!= 'x':
+    city = input("Podaj nazwe miasta")
+    get_weather(api_key, city)
+
